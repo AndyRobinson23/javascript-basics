@@ -13,7 +13,7 @@ const {
   elementsStartingWithAVowel,
   removeSpaces,
   sumNumbers,
-  sortByLastLetter
+  sortByLastLetter,
 } = require("../src/arrays");
 
 describe("getNthElement", () => {
@@ -90,7 +90,7 @@ describe("uppercaseWordsInArray", () => {
     expect(uppercaseWordsInArray(["cat", "mouse", "banana"])).toEqual([
       "CAT",
       "MOUSE",
-      "BANANA"
+      "BANANA",
     ]);
   });
 });
@@ -100,7 +100,7 @@ describe("reverseWordsInArray", () => {
     expect(reverseWordsInArray(["cat", "Mouse", "banana"])).toEqual([
       "tac",
       "esuoM",
-      "ananab"
+      "ananab",
     ]);
   });
 });
@@ -148,7 +148,7 @@ describe("elementsStartingWithAVowel", () => {
         "wupple",
         "xupple",
         "yupple",
-        "zupple"
+        "zupple",
       ])
     ).toEqual(["apple", "epple", "ipple", "opple", "upple"]);
   });
@@ -181,7 +181,7 @@ describe("elementsStartingWithAVowel", () => {
         "Wupple",
         "Xupple",
         "Yupple",
-        "Zupple"
+        "Zupple",
       ])
     ).toEqual(["Apple", "Epple", "Ipple", "Opple", "Upple"]);
   });
